@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "compile": "webpack",
+    "compile": "webpack --progress --profile --colors --display-error-details --display-reasons --debug",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -19,6 +19,7 @@
   "devDependencies": {
     "awesome-typescript-loader": "^3.0.0-beta.20",
     "source-map-loader": "^0.1.6",
-    "typescript": "^2.1.5"
+    "typescript": "^2.1.5",
+    "webpack": "^2.1.0-beta.22"
   }
 }

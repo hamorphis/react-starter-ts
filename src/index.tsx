@@ -1,9 +1,11 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
 
-import { Hello } from "./components/Hello";
+import { List } from "./components/List";
+
+const items = [1, "string", true, undefined, null, new Date()];
 
 ReactDOM.render(
-    <Hello compiler="TypeScript" framework="React" />,
+    <List items={items}/>,
     document.getElementById("example")
 );
